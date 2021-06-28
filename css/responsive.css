@@ -1,0 +1,109 @@
+
+body{
+  color:rgb(255 255 255 / 70%);
+	margin: 1%;
+	padding:1%;
+  background-image: url("../images/barca.jpeg");
+	font-size: 100%;
+	min-width: 500px;
+
+}
+header, footer{
+
+  background-color:#0066FF;
+  padding: 1%;
+  margin: 1%;
+}
+header h1{
+	font-size: 3rem;
+  color:rgb(255 255 255 / 70%);
+
+
+}
+
+section{
+    margin:1%;
+    padding:1%;
+}
+
+nav a{
+	display:block;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 35px;
+	text-decoration: none;
+	padding: 2%;
+	margin: 1%;
+}
+
+h1{
+	text-align: center;
+  color:rgb(255 255 255 / 70%);
+
+}
+
+
+.mySport{
+	margin: 0em 1em;
+	/* padding:.75em; */
+}
+
+ol{
+	list-style:upper-roman;
+	margin:1em;
+}
+img{
+	display: none;
+}
+
+footer{
+	clear: both;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 900px) {
+    header, footer {
+        background-color: transparent;
+    }
+
+    h1:after {
+        content: "(Really)";
+    }
+
+    #left {
+        float: left;
+        width: 20%;
+    }
+
+    #center {
+        display: inline-block;
+        width: 40%;
+    }
+
+    img{
+        display:inline-block;
+        width:25%;
+        margin:1%;
+        padding:1%;
+      }
+}
+
+@media only print {
+    body{
+        background-color: transparent;
+    }
+
+    header h1{
+        font-size: 1em;
+    }
+
+    nav a{
+        display:block;
+    }
+
+    img {
+        display: none;
+    }
+}
